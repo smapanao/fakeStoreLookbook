@@ -67,7 +67,7 @@ function App(){
       <DisplayData title={title} image={image} description={description} price={price} rating={rating}/>
       <ChangeNum num={num} incNum={incNum} decNum={decNum}/>
       <br></br>
-      <UpdateName onChange={onChange} onClick={viewChange} viewNameChange={viewNameChange}/>
+      <UpdateName onChange={onChange} onClick={viewChange} viewNameChange={viewNameChange} name={name}/>
     </div>
   )
 }
